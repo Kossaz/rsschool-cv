@@ -15,6 +15,26 @@ I am 27 years old, I work as an electrician now. I want to change careers. I hav
 * HTML&CSS  
 * Git  
 
+### Code example:  
+```
+  if (args != null & args.length > 0) {
+    if ((args.length < 3) | (args.length % 2 == 0)) {
+      System.out.println("Enter an odd number from 3: for example 3,5,7");
+      return;
+    } else {
+      menu = "Choose one of the suggested moves:";
+      System.out.println(menu);
+        for (int i = 0; i < args.length; ++i) {
+          System.out.print(i+1+" " + args[i] + "\n");
+        }
+    }
+  }
+```
+
+### Experience:  
+* Klimovichi electrical networks - Foreman (Since 11.2018 to 09.2020)  
+* Olsa - Electrician (Sinse 03.2022)  
+
 ### Education:  
 Sukhoi State Technical University of Gomel. Energy еngineer.  
 
