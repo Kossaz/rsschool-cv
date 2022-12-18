@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+  <title>CV</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <section class="section" id="photo">
+        <img class="photo" src="assets/img/my photo.jpg" alt="my photo">
+      </section>
+      <section class="section" id="profile">
+        <h1 class="section-h1">Konstantin Sazonov</h1>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-h2">Contacts</h2>
+        <ul class="contacts-list">
+          <li><b>Location</b>: Mogilev, Belarus </li>
+          <li><b>Phone:</b> +375 33 370 08 60 </li>
+          <li><b>E-mail:</b> player.s.k.v@gmail.com </li>
+          <li><b>GitHub:</b><a href="https://github.com/Kossaz"> Kossaz</a> </li>
+        </ul>
+      </section>
+      <section class="section" id="about_me">
+        <h2 class="section-h2">About me</h2>
+        <p>I am 27 years old, I work as an electrician now. I want to change careers.
+          I have little experience in web site development during my training.
+          I liked working with front-end more then back-end
+          and now I want to get the necessary experience in these courses.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-h2">Skills</h2>
+        <ul class="skill-list">
+          <li>JavaScript(Basic)</li>
+          <li>Java(Basic)</li>
+          <li>HTML&CSS</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-h2">Code</h2>
+        <pre>
+        if (args != null & args.length > 0) {
+          if ((args.length < 3) | (args.length % 2 == 0)) {
+            System.out.println("Enter an odd number from 3: for example 3,5,7");
+            return;
+          } else {
+            menu = "Choose one of the suggested moves:";
+            System.out.println(menu);
+              for (int i = 0; i < args.length; ++i) {
+                System.out.print(i+1+" " + args[i] + "\n");
+              }
+          }
+        }
+      </pre>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-h2">Education</h2>
+        <p>Sukhoi State Technical University of Gomel. Energy еngineer.</p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-h2">Languages</h2>
+        <ul class="languages-list">
+          <li>English - A2</li>
+          <li>Russian - native speaker</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <section class="section" id="footer">
+        <p class="year"> 2022 </p>
+        <a href="https://github.com/Kossaz" class="github">Kossaz</a>
+      </section>
+      <section class="section" id="logo">
+        <a href="https://rs.school/js/"><img class="rs-img" src="assets/img/rs_school_js.svg" alt="sr_school_js"></a>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>
