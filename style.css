@@ -105,6 +105,10 @@ a {
   color: #0a125c;
 }
 
+.section-h2-footer {
+  margin: 0;
+}
+
 p {
   margin: 0 50px 20px;
   font-size: 20px;
