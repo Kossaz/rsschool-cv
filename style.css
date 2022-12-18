@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #d4ecf5;
+  border-bottom: 2px solid#394953;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+  color: #4d2323;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-container {
+  margin: 0 200px 0 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  margin: 50px 0 0 0;
+  background-color: #d4ecf5;
+  border-top: 2px solid#394953;
+}
+
+.footer-container {
+  margin: 0 50px 0 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #025cd1;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  line-height: 20px;
+  transition: .3s;
+}
+
+.nav-link {
+  color: #330505;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 700;
+  color: #810606;
+  margin: 0 50px;
+}
+
+.section-h1 {
+  padding: 50px 50px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #38258f;
+}
+
+.section-h2 {
+  margin: 0 50px;
+  border-bottom: 2px solid#394953;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #0a125c;
+}
+
+p {
+  margin: 0 50px 20px;
+  font-size: 20px;
+}
+
+.year,
+.github {
+  margin: 0 400px 0 50px;
+  font-size: 20px;
+  position: relative;
+}
+
+.contacts-list,
+.skill-list,
+.languages-list {
+  margin: 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.photo {
+  margin: 20px 0 0 200px;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.rs-img {
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  width: 100px;
+}
+
+pre {
+  font-size: 14px;
+}
